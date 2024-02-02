@@ -1,5 +1,7 @@
-package com.betrybe.museumfinder.exception;
+package com.betrybe.museumfinder.advice;
 
+import com.betrybe.museumfinder.exception.InvalidCoordinateException;
+import com.betrybe.museumfinder.exception.MuseumNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -9,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
  * Global exception handler for the Museum Finder application.
  */
 @ControllerAdvice
-public class ExceptionManager {
+public class GeneralControllerAdvice {
 
   /**
    * Handles the exception when a museum is not found.
@@ -36,5 +38,10 @@ public class ExceptionManager {
     return ResponseEntity
         .status(HttpStatus.BAD_REQUEST)
         .body(exception.getMessage());
+  }
+
+  @ExceptionHandler(Exception.class)
+  public ResponseEntity<String> internalException() {
+    return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Erro interno!");
   }
 }

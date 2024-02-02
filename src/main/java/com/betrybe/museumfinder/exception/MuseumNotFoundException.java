@@ -9,6 +9,6 @@ public class MuseumNotFoundException extends RuntimeException {
    * Constructs a MuseumNotFoundException with a default error message.
    */
   public MuseumNotFoundException() {
-    super("Museum not found");
+    super("Museu não encontrado!");
   }
 }
