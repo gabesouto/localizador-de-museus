@@ -60,6 +60,10 @@ public class MuseumController {
 
   }
 
+  /**
+   * museum get by id.
+   */
+
   @GetMapping("/{id}")
   public ResponseEntity<MuseumDto> getMuseumById(@PathVariable long id) {
     Museum museumFound = this.service.getMuseum(id);
