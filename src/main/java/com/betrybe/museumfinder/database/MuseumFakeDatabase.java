@@ -3,7 +3,7 @@ package com.betrybe.museumfinder.database;
 import static com.betrybe.museumfinder.util.CoordinateUtil.coordinateDistance;
 
 import com.betrybe.museumfinder.model.Coordinate;
-import com.betrybe.museumfinder.model.Museum;
+import com.betrybe.museumfinder.model.entities.Museum;
 import com.betrybe.museumfinder.util.MuseumLoader;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

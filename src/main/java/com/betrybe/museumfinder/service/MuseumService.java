@@ -4,7 +4,7 @@ import com.betrybe.museumfinder.database.MuseumFakeDatabase;
 import com.betrybe.museumfinder.exception.InvalidCoordinateException;
 import com.betrybe.museumfinder.exception.MuseumNotFoundException;
 import com.betrybe.museumfinder.model.Coordinate;
-import com.betrybe.museumfinder.model.Museum;
+import com.betrybe.museumfinder.model.entities.Museum;
 import com.betrybe.museumfinder.util.CoordinateUtil;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

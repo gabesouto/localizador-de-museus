@@ -2,7 +2,7 @@ package com.betrybe.museumfinder.util;
 
 import com.betrybe.museumfinder.dto.MuseumCreationDto;
 import com.betrybe.museumfinder.dto.MuseumDto;
-import com.betrybe.museumfinder.model.Museum;
+import com.betrybe.museumfinder.model.entities.Museum;
 
 /**
  * Utility class to convert between model and dto.

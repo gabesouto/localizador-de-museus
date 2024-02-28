@@ -1,7 +1,7 @@
 package com.betrybe.museumfinder.service;
 
 import com.betrybe.museumfinder.model.Coordinate;
-import com.betrybe.museumfinder.model.Museum;
+import com.betrybe.museumfinder.model.entities.Museum;
 
 /**
  * Interface for Museum service class.

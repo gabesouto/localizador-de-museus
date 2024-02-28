@@ -1,6 +1,6 @@
 package com.betrybe.museumfinder.util;
 
-import com.betrybe.museumfinder.model.Museum;
+import com.betrybe.museumfinder.model.entities.Museum;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;

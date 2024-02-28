@@ -3,7 +3,7 @@ package com.betrybe.museumfinder.controller;
 
 import com.betrybe.museumfinder.dto.MuseumDto;
 import com.betrybe.museumfinder.model.Coordinate;
-import com.betrybe.museumfinder.model.Museum;
+import com.betrybe.museumfinder.model.entities.Museum;
 import com.betrybe.museumfinder.service.MuseumServiceInterface;
 import com.betrybe.museumfinder.util.ModelDtoConverter;
 import org.springframework.beans.factory.annotation.Autowired;
